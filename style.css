@@ -902,7 +902,10 @@ footer .wave#wave4{
     /* hide nav */
     
     .change{
-            background-color: #f7f8fc;
+            
+            background: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(3.5px);
+            -webkit-backdrop-filter: blur(3.5px);
             height: 100vh;
             margin: 0;
             top: 0;
@@ -920,20 +923,29 @@ footer .wave#wave4{
     @media (max-width:900px){
             .change{
                 width: 50vw;
-                background-color: #f7f8fc;
+               
+                background: rgba(255, 255, 255, 0.5);
+                backdrop-filter: blur(3.5px);
+                -webkit-backdrop-filter: blur(3.5px);
     
             }
     }
     @media(max-width:700px){
             .change{
                 width:50vw;
-                background-color: #f7f8fc;
+                
+                background: rgba(255, 255, 255, 0.5);
+                backdrop-filter: blur(3.5px);
+                -webkit-backdrop-filter: blur(3.5px);
             }
     }
     @media(max-width:500px){
             .change{
                 width:70vw;
-                background-color: #f7f8fc;
+               
+                background: rgba(255, 255, 255, 0.5);
+                backdrop-filter: blur(3.5px);
+                -webkit-backdrop-filter: blur(3.5px);
             }
     }
 
