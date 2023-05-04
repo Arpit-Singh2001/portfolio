@@ -10,6 +10,8 @@
     
 }
 
+
+
 :root{
     --bgOrange:#e84949;
 }
@@ -758,7 +760,10 @@ footer .wave#wave4{
   }
 
   .nav-section{
-    background-color: #f7f8fc;
+    /* background-color: #f7f8fc; */
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
     padding-block: 16px;
     position: sticky;
     top: 0px;
